@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="background-image">
+            <img src="https://wallpapercave.com/wp/wp9764022.jpg" alt="Background Image">
+        </div>
+        <div class="login-container">
+            <div class="logo-container">
+                <img src="resuport.jpg" alt="Company Logo">
+            </div>
+            <div class="form-container">
+                <h2>Welcome Back!</h2>
+                <form id="loginForm">
+                    <label for="username" class="input">Username:</label>
+                    <input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+                    <label for="password" class="input">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+                    <button type="button" onclick="submitForm()">Login</button>
+                </form>
+                <a href="#" class="google-signin-button" onclick="signInWithGoogle()">
+                    <img src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-google-icon-logo-png-transparent-svg-vector-bie-supply-14.png" alt="Google Logo" class="google-logo">
+                    Sign In with Google
+                </a>
+            </div>
+            <div class="footer">
+                <p>&copy; 2023 Your Company. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
