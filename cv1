@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ankur Nanera</h1>
+        <p>Student CV</p>
+    </header>
+
+    <div class="container">
+        <h2>Contact Information</h2>
+        <ul>
+            <li><strong>Email:</strong> naneraankur@gmail.com</li>
+            <li><strong>Phone:</strong> 9428863532</li>
+            <li><strong>Address:</strong> umiyaji park BHANVD ,360510</li>
+        </ul>
+
+        <div class="section-title">
+            <h2>Summary</h2>
+        </div>
+        <div class="section-content">
+            <p>As a motivated and creative computer science student, I am passionate about web development and have a strong foundation in HTML, CSS, and JavaScript. I am dedicated to continuous learning and enjoy taking on challenging projects.</p>
+        </div>
+
+        <div class="section-title">
+            <h2>Education</h2>
+        </div>
+        <div class="section-content">
+            <table>
+                <tr>
+                    <th>Degree</th>
+                    <th>University</th>
+                    <th>Graduation Date</th>
+                </tr>
+                <tr>
+                    <td>B.TECH</td>
+                    <td>IIIT Lucknow</td>
+                    <td>AUG 2023</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="section-title">
+            <h2>Skills</h2>
+        </div>
+        <div class="section-content">
+            <p><strong>Web Development:</strong></p>
+            <div class="progress">
+                <div class="progress-bar progress-html">HTML (70%)</div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar progress-css">CSS (80%)</div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar progress-javascript">JavaScript (10%)</div>
+            </div>
+
+            <p><strong>Other Skills:</strong></p>
+            <ul>
+                <li>Web Development</li>
+                <li>Teamwork</li>
+                <li>Problem Solving</li>
+            </ul>
+        </div>
+        <!-- Add an image -->
+        <img class="profile-image" src="png1.png" alt="Your Profile Image">
+    </div>
+</body>
+</html>
