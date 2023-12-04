@@ -14,7 +14,9 @@
         margin: 0px;
         padding: 0px;
       }
-
+    body{
+      background-color:rgb(136, 157, 214);
+    }
       .resume{
         color: rgb(10, 10, 10);
       }
@@ -51,13 +53,26 @@
         margin-top: 20px;
         max-width: fit-content;
       }
+      .img{
+        height:370px;
+        width:370px;
+        margin-left:0px;
+        padding-left: 0px;
+        margin-right:0px;
+        padding-right:0px;
+      }
+      .logo{
+        height:100px;
+        width:100px;
+      }
     
     </style>
   </head>
   <body>
+    <script src="home.js"></script>
     <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <img src="logo4.png" alt="logo">
+        <img class=logo src="resuport.jpg" alt="logo">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -65,28 +80,28 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">About us <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="aboutus.html">About us <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contect us</a>
+              <a class="nav-link" href="contactus.html">Contact us</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Career blog
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Resume & CV writing</a>
-                <a class="dropdown-item" href="#">Cover latter writing</a>
+                <a class="dropdown-item" href="cv-templates.html">Resume & CV writing</a>
+                <a class="dropdown-item" href="#">Cover letter writing</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Personal devlopment</a>
+                <a class="dropdown-item" href="#">Personal development</a>
               </div>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Resume & CV</a>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="button">Login</button>
+          <form class="form-inline my-2 my-lg-0" action="index.html">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="button"><a href="index.html">Login</a></button>
           </form>
         </div>
       </nav>
@@ -105,20 +120,18 @@
               <h2>Try it for free.</h2>
               <button type="button" id="start">Get started now</button>
               <h2 id="premium">Premium Features for Ambitious Job-Seekers</h2>
-              <h5>The job market today is competitive - you'll need every edge to stand out. Here's how Novorésumé Premium can help you:</h5>
+              <h5>The job market today is competitive - you'll need every edge to stand out. Here's how ResuPort Premium can help you:</h5>
             </div>
             
             <div class="col-md-auto col-lg-auto col-xl-auto mx-auto mb-4">
-              <img src="resu1.png" alt="resu1">
+              <img class="img" src="Screenshot 2023-12-03 102813.png" alt="resu1">
             </div>
             
             <div class="col-md-auto col-lg-auto col-xl-auto mx-auto mb-4">
-              <img src="resu2.png" alt="resu2">
+              <img class="img" src="Screenshot 2023-12-04 030516.png" alt="resu2">
             </div>
             
-            <div class="col-md-auto col-lg-auto col-xl-auto mx-auto mb-md-0 mb-4">
-              
-            </div>
+            
             <!-- Grid column -->
           </div>
           <!-- Grid row -->
@@ -126,7 +139,7 @@
       </section>
 
       <div class="container">
-        <h1>Why Use The Resu`Port` Resume Builder?
+        <h1>Why Use The ResuPort Resume Builder?
         </h1>
         <img src="resu5.png" alt="details about us" id="details">
         <img src="resu6.png" alt="details about us" id="details">
@@ -141,9 +154,7 @@
   <!-- Section: Social media -->
   <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
     <!-- Left -->
-    <div class="me-5 d-none d-lg-block">
-      <span>Get connected with us on social networks:</span>
-    </div>
+   
     <!-- Left -->
 
     <!-- Right -->
@@ -235,7 +246,7 @@
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
           <!-- Links -->
           <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-          <p><i class="fas fa-home me-3"></i>Lucknow , utter pradesh , IND</p>
+          <p><i class="fas fa-home me-3"></i>Lucknow , Uttar Pradesh , IND</p>
           <p>
             <i class="fas fa-envelope me-3"></i>
             resuport@gmail.com
